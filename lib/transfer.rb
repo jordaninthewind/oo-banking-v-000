@@ -1,3 +1,5 @@
+require 'pry'
+
 class Transfer
 attr_accessor :sender, :receiver, :amount, :status
 
@@ -6,6 +8,10 @@ attr_accessor :sender, :receiver, :amount, :status
     @receiver = receiver
     @amount = transfer_amount
     @status = "pending"
+  end
+
+  def valid?
+
   end
 
 end
