@@ -13,7 +13,7 @@ attr_reader :name
   end
 
   def display_balance
-    return "Your balance is #{self.balance}."
+    return "Your balance is $#{self.balance}."
   end
 
   def valid?
