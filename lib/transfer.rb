@@ -30,5 +30,7 @@ attr_accessor :sender, :receiver, :amount, :status
       @receiver.balance -= @amount
       @sender.balance += @amount
       @status = "pending"
+    end
+  end
 
 end
