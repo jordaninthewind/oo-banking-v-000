@@ -11,7 +11,7 @@ attr_accessor :sender, :receiver, :amount, :status
   end
 
   def valid?
-      binding.pry
+    @sender.valid? && @receiver.valid?
   end
 
 end
