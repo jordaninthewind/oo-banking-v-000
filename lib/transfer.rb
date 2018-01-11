@@ -7,4 +7,5 @@ attr_accessor
     @transfer_amount = transfer_amount
     @status = 'pending'
   end
+  
 end
